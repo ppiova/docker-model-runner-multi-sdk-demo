@@ -1,0 +1,14 @@
+# Normalize line endings for all text files on checkout.
+* text=auto
+
+# Force LF for scripts and source files regardless of OS.
+*.py   text eol=lf
+*.cs   text eol=lf
+*.sh   text eol=lf
+*.md   text eol=lf
+*.yaml text eol=lf
+*.yml  text eol=lf
+*.json text eol=lf
+*.txt  text eol=lf
+*.xml  text eol=lf
+*.csproj text eol=lf

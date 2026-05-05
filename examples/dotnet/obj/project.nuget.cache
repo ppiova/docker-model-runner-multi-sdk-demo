@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "xEA+WY5NI18=",
+  "success": true,
+  "projectFilePath": "C:\\GitHubRepos\\99-ppiova-github\\docker-model-runner-multi-sdk-demo\\examples\\dotnet\\DmrExamples.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ppiov\\.nuget\\packages\\anthropic\\12.17.0\\anthropic.12.17.0.nupkg.sha512",
+    "C:\\Users\\ppiov\\.nuget\\packages\\azure.ai.openai\\2.1.0\\azure.ai.openai.2.1.0.nupkg.sha512",
+    "C:\\Users\\ppiov\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
+    "C:\\Users\\ppiov\\.nuget\\packages\\dotnetenv\\3.1.1\\dotnetenv.3.1.1.nupkg.sha512",
+    "C:\\Users\\ppiov\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\ppiov\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\10.4.1\\microsoft.extensions.ai.abstractions.10.4.1.nupkg.sha512",
+    "C:\\Users\\ppiov\\.nuget\\packages\\microsoft.extensions.configuration\\1.1.2\\microsoft.extensions.configuration.1.1.2.nupkg.sha512",
+    "C:\\Users\\ppiov\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.3\\microsoft.extensions.configuration.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\ppiov\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.3\\microsoft.extensions.dependencyinjection.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\ppiov\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\10.0.3\\microsoft.extensions.diagnostics.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\ppiov\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\10.0.3\\microsoft.extensions.fileproviders.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\ppiov\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\10.0.3\\microsoft.extensions.hosting.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\ppiov\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.3\\microsoft.extensions.logging.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\ppiov\\.nuget\\packages\\microsoft.extensions.options\\10.0.3\\microsoft.extensions.options.10.0.3.nupkg.sha512",
+    "C:\\Users\\ppiov\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.3\\microsoft.extensions.primitives.10.0.3.nupkg.sha512",
+    "C:\\Users\\ppiov\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ppiov\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
+    "C:\\Users\\ppiov\\.nuget\\packages\\ollamasharp\\5.4.25\\ollamasharp.5.4.25.nupkg.sha512",
+    "C:\\Users\\ppiov\\.nuget\\packages\\openai\\2.10.0\\openai.2.10.0.nupkg.sha512",
+    "C:\\Users\\ppiov\\.nuget\\packages\\sprache\\2.3.1\\sprache.2.3.1.nupkg.sha512",
+    "C:\\Users\\ppiov\\.nuget\\packages\\system.clientmodel\\1.10.0\\system.clientmodel.1.10.0.nupkg.sha512",
+    "C:\\Users\\ppiov\\.nuget\\packages\\system.memory.data\\10.0.3\\system.memory.data.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

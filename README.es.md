@@ -1,5 +1,10 @@
 # Un endpoint, tres SDKs
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
+[![Docker](https://img.shields.io/badge/Docker_Model_Runner-4.58%2B-2496ED?logo=docker&logoColor=white)](https://docs.docker.com/ai/model-runner/)
+
 Demo mínima que muestra cómo **Docker Model Runner (DMR)** expone el mismo modelo local a través de tres formatos de API nativos (OpenAI, Anthropic, Ollama) en un único endpoint, y cómo eso habilita paridad dev/prod con **Microsoft Foundry**.
 
 > 🇬🇧 [English version](./README.md)
@@ -201,6 +206,12 @@ El proyecto lee el mismo archivo `.env` de la raíz del repo via `DotNetEnv.Env.
 ## Licencia
 
 MIT
+
+## Sobre el autor
+
+**Pablo Piovano** — Director of AI at [OZ Digital](https://ozdigital.ai) · Microsoft MVP en IA
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ppiova-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ppiova/)
 
 ---
 
