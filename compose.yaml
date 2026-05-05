@@ -1,0 +1,26 @@
+# Optional: run example 01 (OpenAI SDK) inside a container that talks to Docker Model Runner.
+#
+# This demonstrates that containerized services reach DMR through the special
+# hostname model-runner.docker.internal — no extra network setup needed.
+#
+# Only example 01 runs here. To run other examples, change the command below.
+#
+# Run:
+#     docker compose up
+
+services:
+  agent:
+    image: python:3.12-slim
+    working_dir: /app
+    volumes:
+      - ./examples:/app
+      - ./requirements.txt:/app/requirements.txt
+    command: >
+      bash -c "pip install -r requirements.txt &&
+               python 01_openai_local.py"
+    environment:
+      # Inside a container, DMR is reachable through this hostname
+      DMR_BASE_URL: http://model-runner.docker.internal:12434
+      LOCAL_MODEL: ${LOCAL_MODEL:-ai/qwen3-coder}
+    extra_hosts:
+      - "model-runner.docker.internal:host-gateway"
