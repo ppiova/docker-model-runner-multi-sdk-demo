@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>DmrExamples</RootNamespace>
+    <AssemblyName>DmrExamples</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenAI"           Version="2.10.0" />
+    <PackageReference Include="Azure.AI.OpenAI"  Version="2.1.0"  />
+    <PackageReference Include="Anthropic"        Version="12.17.0" />
+    <PackageReference Include="OllamaSharp"      Version="5.4.25" />
+    <PackageReference Include="DotNetEnv"        Version="3.1.1"  />
+  </ItemGroup>
+
+</Project>

@@ -17,7 +17,8 @@ This repo proves it with six short, runnable examples.
 ## Prerequisites
 
 - **Docker Desktop 4.58.0+** (Anthropic API support requires this version)
-- **Python 3.10+**
+- **Python 3.10+** (for the Python examples)
+- **.NET 10 SDK** (for the C# examples — `dotnet run` from the `examples/dotnet` project)
 - **GPU optional**, llama.cpp runs on CPU and Apple Silicon
 
 ## Setup
@@ -112,6 +113,35 @@ python examples/06_ollama_local.py
 ```
 
 DMR exposes `/api/chat`. The Ollama Python SDK sees it as a regular Ollama server. **Same model, same memory, third protocol.** This completes the picture: one model in memory, three Python SDKs, zero proxies.
+
+## .NET 10 / C# examples
+
+The same five examples are available as a single .NET 10 console project under `examples/dotnet/`.
+
+**Packages used:**
+| SDK | NuGet package | Version |
+|---|---|---|
+| OpenAI | `OpenAI` | 2.10.0 |
+| Azure OpenAI (Foundry) | `Azure.AI.OpenAI` | 2.1.0 |
+| Anthropic (official) | `Anthropic` | 12.17.0 |
+| Ollama | `OllamaSharp` | 5.4.25 |
+
+**Run:**
+
+```bash
+# Build once
+dotnet restore examples/dotnet
+
+# Then pick any example
+dotnet run --project examples/dotnet -- 01   # OpenAI SDK
+dotnet run --project examples/dotnet -- 02   # Anthropic SDK (official)
+dotnet run --project examples/dotnet -- 03   # Streaming (both SDKs)
+dotnet run --project examples/dotnet -- 04   # Dev/prod parity
+ENVIRONMENT=production dotnet run --project examples/dotnet -- 04
+dotnet run --project examples/dotnet -- 06   # Ollama SDK
+```
+
+The project reads the same `.env` file at the repo root via `DotNetEnv.Env.TraversePath().Load()`, so no extra configuration is needed.
 
 ## What the demo proves
 
